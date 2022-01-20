@@ -43,8 +43,7 @@ Before running the application first install the following.
 
 ## Usage
 
-
-To use the application simply clone the repository and open with JupyterLab. Proceed to run the modules and visualize the plotted data, and view the organized data. Change the window of the data calculated in the training section to note different recall and precision factors in the testing report.  
+To use this application first navigate to the closes folder and run the data_scraper.ipynb script. This will generate two large CSV files and this process will take a long time. Once completed navigate back and run the back_testing.ipynb. This will generate plots, and data about the trading period. 
 
 * Note : if you are using an Apple Silicon machine and encounter installation errors, try installation with brew or conda. 
 
