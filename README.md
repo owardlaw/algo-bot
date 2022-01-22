@@ -43,7 +43,7 @@ Before running the application first install the following.
 
 ## Usage
 
-* First locate the zip file in the closes folder, unzip it and then the CSV files back into the closes folder. If you wish you generate your own CSV files with the data_scraper it will take awhile.
+* First locate the zip file in the closes folder, unzip it and then add the CSV files back into the closes folder. If you wish you generate your own CSV files with the data_scraper it will take awhile.
 
 To use this application first navigate to the closes folder and run the data_scraper.ipynb script. This will generate two large CSV files and this process will take a long time. Once completed navigate back and run the back_testing.ipynb. This will generate plots, and data about the trading period. 
 
