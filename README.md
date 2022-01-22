@@ -43,9 +43,9 @@ Before running the application first install the following.
 
 ## Usage
 
-* First locate the zip file in the closes folder, unzip it and then add the CSV files back into the closes folder. If you wish you generate your own CSV files with the data_scraper it will take awhile.
-
 To use this application first navigate to the closes folder and run the data_scraper.ipynb script. This will generate two large CSV files and this process will take a long time. Once completed navigate back and run the back_testing.ipynb. This will generate plots, and data about the trading period. 
+
+* Note : if you are using an Apple Silicon machine and encounter installation errors, try installation with brew or conda. 
 
 * Note : scikit-learn will generate new predictions everytime the module is ran again. This will change the expected profit of the bot. Random_state can set a            fixed seed for the model to follow and will prevent this. However it restricts scikit-learn to a fixed seed and not doing this can provide a better              understanding of performence given it will be under new circumstances everytime without a fixed seed. 
 
