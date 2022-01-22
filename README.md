@@ -2,7 +2,7 @@
 An algorithmic based machine learning aided crypto trading strategy that allows the user to backtest crypto pairs and create CSV files of historial data from API calls.
 
 # Disclaimer 
-Nothing contained in this app should be construed as investment advice.
+This app is for backtesting not live trading. 
 
 ## Technologies
 
@@ -43,11 +43,10 @@ Before running the application first install the following.
 
 ## Usage
 
-To use this application first navigate to the closes folder and run the data_scraper.ipynb script. This will generate two large CSV files and this process will take a long time. Once completed navigate back and run the back_testing.ipynb. This will generate plots, and data about the trading period. 
+Navigate to and run back_testing.ipynb. This will generate plots, and data about the trading period. If you wish to generate CSVs with different trading periods on different coins or with a different time frame you can with back_testing.ipynb, but two years of BTC and ETH data are already provided.  
 
-* Note : if you are using an Apple Silicon machine and encounter installation errors, try installation with brew or conda. 
-
-* Note : scikit-learn will generate new predictions everytime the module is ran again. This will change the expected profit of the bot. Random_state can set a            fixed seed for the model to follow and will prevent this. However it restricts scikit-learn to a fixed seed and not doing this can provide a better              understanding of performence given it will be under new circumstances everytime without a fixed seed. 
+* Note : scikit-learn will generate new predictions everytime the module is ran again. This will change the expected profit of the bot. Random_state can set a            fixed seed for the model to follow and will prevent this. However it restricts scikit-learn to a fixed seed and not doing this can provide a better              understanding of performence given it will be under new circumstances everytime without a fixed seed.
+* Note : if you are using an M1 chip and encounter isntallation issues with TA-Lib try the conda and brew installation of TA-Lib.
 
 
 ---
