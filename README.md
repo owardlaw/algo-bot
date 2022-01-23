@@ -46,7 +46,7 @@ Before running the application first install the following.
 Navigate to and run back_testing.ipynb. This will generate plots, and data about the trading period. If you wish to generate CSVs with different trading periods on different coins or with a different time frame you can with back_testing.ipynb, but two years of BTC and ETH data are already provided.  
 
 * Note : scikit-learn will generate new predictions everytime the module is ran again. This will change the expected profit of the bot. Random_state can set a            fixed seed for the model to follow and will prevent this. However it restricts scikit-learn to a fixed seed and not doing this can provide a better              understanding of performence given it will be under new circumstances everytime without a fixed seed.
-* Note : if you are using an M1 chip and encounter isntallation issues with TA-Lib try the conda and brew installation of TA-Lib.
+* Note : if you are using Mac OS and encounter isntallation issues with TA-Lib try the conda and brew installation of TA-Lib.
 
 
 ---
